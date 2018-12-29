@@ -11,6 +11,9 @@
     "e2e": "ng e2e",
     "postinstall": "npm install node_modules/login-app/dist/login-app-0.0.0.tgz"
   },
+  "engines": {
+    "node": "8.12.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.1.0",
