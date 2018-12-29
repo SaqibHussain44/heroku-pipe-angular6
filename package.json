@@ -8,7 +8,7 @@
     "test": "ng test",
     "postinstall": "ng build --aot --prod",
     "lint": "ng lint",
-    "e2e": "ng e2e",
+    "e2e": "ng e2e"
   },
   "engines": {
     "node": "8.12.0"
