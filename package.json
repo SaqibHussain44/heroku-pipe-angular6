@@ -1,13 +1,15 @@
 {
-  "name": "my-app",
+  "name": "heroku-pipe-angular6",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "postinstall": "ng build --aot --prod",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "npm install node_modules/login-app/dist/login-app-0.0.0.tgz"
   },
   "private": true,
   "dependencies": {
